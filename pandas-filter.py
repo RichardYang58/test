@@ -1,4 +1,5 @@
 import pandas as pd
+<<<<<<< HEAD
 # data=pd.Series([30,15,20])
 # # condition=[True,False,True]
 # condition=data>18
@@ -12,11 +13,20 @@ import pandas as pd
 # filteredData=data[condition]
 # print(filteredData)
 
+=======
+>>>>>>> d19b82f32e5f52d9b9063a0812466d85dcda154b
 data=pd.DataFrame({
     "name":["Amy","Bob","Charles"],
     "salary":[30000,40000,40000]
 }, index=["a","b","c"])
+<<<<<<< HEAD
 
 
 
 
+=======
+# print(data)
+condition=data["salary"]>=40000
+filteredData=data[condition]
+print(filteredData)
+>>>>>>> d19b82f32e5f52d9b9063a0812466d85dcda154b

@@ -20,6 +20,10 @@ data=pd.Series(["你好","Python","Pandas"])
 # print(data.str.lower())
 # print(data.str.len())
 print(data.str.cat(sep=","))
+<<<<<<< HEAD
 print(data.str.contains("P"))
 
 
+=======
+print(data.str.contains("P"))
+>>>>>>> d19b82f32e5f52d9b9063a0812466d85dcda154b
